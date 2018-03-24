@@ -202,7 +202,7 @@
 								    		<li>
 								    			<div class="mu-single-event">
 								    				<p class="mu-event-time">8AM - 9AM</p>
-								    				<h3>Check In & Breakfast</h3>
+								    				<h3>Check In and Breakfast</h3>
 								    			</div>
 								    		</li>
 
@@ -270,7 +270,7 @@
 		<!-- End Schedule -->
 
     <!-- Start Speakers -->
-		<section id="mu-speakers">
+	<section id="mu-speakers">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
@@ -335,7 +335,6 @@
 									<!-- End single speaker -->
 
 
-									<!-- Start single speaker **-->
 									<div class="mu-single-speakers">
 										<img src="assets/images/Eleanor-Wang-Organizer-Picture.jpg" alt="speaker img"  align="center">
 										<div class="mu-single-speakers-info">
@@ -402,26 +401,25 @@
 											</ul>
 										</div>
 									</div>
-									<!-- End single speaker -->
+								<!-- 	End single speaker -->
 								</div>
 							</div>
-							<!-- End Speakers Content -->
+							End Speakers Content
 
 						</div>
 					</div>
 				</div>
 			</div>
-		</section>
+		</section>  
 		<!-- End Speakers -->
-
+<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2943.083113302134!2d-83.44142468454031!3d42.46852097917972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824ae390bde8857%3A0xfa693784aef42a8d!2sFlexTech+-+Novi+High+School!5e0!3m2!1sen!2sus!4v1507839350365" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> -->
 		<!-- Start Venue -->
-		<section id="mu-venue">
+		 <section id="mu-venue">
 			<div class="mu-venue-area">
 				<div class="row">
-
 					<div class="col-md-6">
-						<div class="mu-venue-map">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2943.083113302134!2d-83.44142468454031!3d42.46852097917972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824ae390bde8857%3A0xfa693784aef42a8d!2sFlexTech+-+Novi+High+School!5e0!3m2!1sen!2sus!4v1507839350365" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<div class="mu-venue-map" id = "map">
+							
 						</div>
 					</div>
 
@@ -436,7 +434,7 @@
 
 				</div>
 			</div>
-		</section>
+		</section> 
 		<!-- End Venue -->
 
 		<!-- Start Register  -->
@@ -778,6 +776,7 @@
 		</section>
 		<!-- End Contact -->
 
+
 	</main>
 
 	<!-- End main content -->
@@ -806,7 +805,6 @@
 	<!-- End footer -->
 
 
-
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -823,7 +821,12 @@
 
     <!-- Custom js -->
 	<script type="text/javascript" src="assets/js/custom.js"></script>
+<script>
+    $(document).ready(function () {
 
+        $("#map").append("<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2943.083113302134!2d-83.44142468454031!3d42.46852097917972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824ae390bde8857%3A0xfa693784aef42a8d!2sFlexTech+-+Novi+High+School!5e0!3m2!1sen!2sus!4v1507839350365\" style=\"max-width: 600px\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0;\" allowfullscreen></iframe>");
+    });
+</script>
 
 
 
