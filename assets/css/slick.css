@@ -1,4 +1,7 @@
 /* Slider */
+.id{
+    background-color: white 
+}
 .slick-slider
 {
     position: relative;
